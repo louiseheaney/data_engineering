@@ -11,7 +11,7 @@ CREATE TYPE season_stats AS (
          ast REAL       
       )
       
-CREAT TYPE scoring_class AS ENUM('star', 'good',  'average', 'bad')
+CREATE TYPE scoring_class AS ENUM('star', 'good',  'average', 'bad')
 
 
 --create table     
